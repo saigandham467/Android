@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/list_selector"
+    android:padding="5dp">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="5dp"
+        android:background="#ffeeeade"
+        android:layout_alignParentLeft="true"
+        android:padding="3dp"
+        android:id="@+id/thumbnail">
+    
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher" /></LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_alignTop="@+id/thumbnail"
+        android:text="Cracking the coding interview"
+        android:textStyle="bold"
+        android:textColor="#040404"
+        android:textSize="14sp"
+        android:layout_toRightOf="@+id/thumbnail"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/author"
+        android:textColor="#d42a44"
+        android:text="Gaylee"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_below="@+id/title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pages"
+        android:text="234 pages"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="3dp"
+        android:layout_alignTop="@+id/title"
+        android:textStyle="italic"
+
+
+        />
+
+
+
+
+
+
+</RelativeLayout>

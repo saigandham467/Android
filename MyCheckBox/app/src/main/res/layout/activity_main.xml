@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="checkbox.com.saiandroid.mycheckbox.MainActivity"
+    android:background="#9fe8d6">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select any checkboxes"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="#ffffff" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="computer science"
+        android:id="@+id/checkBox1id"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="32dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eletrical Engineering"
+        android:id="@+id/checkBox2id"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/checkBox1id"
+        android:layout_marginLeft="95dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mechanical engineering"
+        android:id="@+id/checkBox3id"
+        android:layout_below="@+id/checkBox2id"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View check boxes"
+        android:id="@+id/viewcheckboxbuttonid"
+        android:layout_below="@+id/checkBox3id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/displaytextViewid"
+        android:layout_below="@+id/viewcheckboxbuttonid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+</RelativeLayout>

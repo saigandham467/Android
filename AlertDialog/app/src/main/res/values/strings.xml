@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AlertDialog</string>
+    <string name="Dialog_Title">My Dialog</string>
+    <string name="Dialog_message">Hello I am your Dialog</string>
+    <string name="Positive_Button">yes</string>
+    <string name="Negative_Button">No</string>
+</resources>
