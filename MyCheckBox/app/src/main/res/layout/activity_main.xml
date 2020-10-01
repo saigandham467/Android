@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_marginTop="10dp"
     tools:context="checkbox.com.saiandroid.mycheckbox.MainActivity"
     android:background="#9fe8d6">
 
